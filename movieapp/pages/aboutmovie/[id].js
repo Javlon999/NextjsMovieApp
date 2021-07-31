@@ -55,7 +55,7 @@ export default function Aboutmovie({data}) {
     })
     const result = res.data.data;
     let loading= result ? true:false; 
-    console.log('res ', result);
+  
   
     if (!result) {
       return {
